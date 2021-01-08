@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac7099fe-272c-453e-b451-ef4f190e835c" name="Default Changelist" comment="" />
+    <list default="true" id="ac7099fe-272c-453e-b451-ef4f190e835c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/FuckingAlgorithm/Tree/IncreasingOrderSearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FuckingAlgorithm/Tree/kthLargest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/f2k/FuckingAlgorithm/Tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/f2k/FuckingAlgorithm/Tree/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/f2k/ztest/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/f2k/ztest/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/f2k/ztest/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/f2k/ztest/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FuckingAlgorithm/Tree/LowestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FuckingAlgorithm/Tree/LowestCommonAncestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FuckingAlgorithm/Tree/LowestCommonAncestor2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FuckingAlgorithm/Tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FuckingAlgorithm/Tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ztest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ztest/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ztest/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ztest/Solution.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\2Project\f2k\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -29,6 +56,7 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectId" id="1mbufM0s6L7uvrghzzMpKUMYhG2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,9 +69,40 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2Project\f2k\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.IncreasingOrderSearchTree">
+    <configuration name="GeneratorImp2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generic.GeneratorImp2" />
+      <module name="f2k" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Generic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IncreasingOrderSearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FuckingAlgorithm.Tree.IncreasingOrderSearchTree" />
+      <module name="f2k" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FuckingAlgorithm.Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ztest.Main" />
       <module name="f2k" />
@@ -57,8 +116,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ztest.Solution" />
+      <module name="f2k" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ztest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IncreasingOrderSearchTree" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.GeneratorImp2" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -85,7 +160,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609774713882</updated>
-      <workItem from="1609774716793" duration="18000" />
+      <workItem from="1609774716793" duration="901000" />
+      <workItem from="1609813850811" duration="3727000" />
+      <workItem from="1609832326503" duration="2841000" />
+      <workItem from="1609895680911" duration="3970000" />
+      <workItem from="1609916162762" duration="5199000" />
+      <workItem from="1609941398158" duration="162000" />
+      <workItem from="1610066513849" duration="4040000" />
     </task>
     <servers />
   </component>
@@ -97,13 +178,89 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="432" y="166" key="#Project_Structure/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1609774746529" />
+    <state x="645" y="213" key="#com.intellij.ide.util.MemberChooser" timestamp="1610067584285">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="645" y="213" key="#com.intellij.ide.util.MemberChooser/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1610067584285" />
+    <state x="452" y="100" key="CommitChangelistDialog2" timestamp="1609775024730">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="452" y="100" key="CommitChangelistDialog2/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1609775024730" />
     <state x="620" y="248" key="FileChooserDialogImpl" timestamp="1609774834359">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="620" y="248" key="FileChooserDialogImpl/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1609774834359" />
+    <state x="715" y="400" width="274" height="210" key="Github.ShareDialog" timestamp="1609774977924">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="715" y="400" width="274" height="210" key="Github.ShareDialog/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1609774977924" />
+    <state x="622" y="210" key="Github.UntrackedFilesDialog" timestamp="1609775002912">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="622" y="210" key="Github.UntrackedFilesDialog/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1609775002912" />
+    <state width="1620" height="236" key="GridCell.Tab.0.bottom" timestamp="1610068464219">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609923179337" />
+    <state width="1620" height="236" key="GridCell.Tab.0.bottom/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1610068464219" />
+    <state width="1620" height="236" key="GridCell.Tab.0.center" timestamp="1610068464219">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609923179337" />
+    <state width="1620" height="236" key="GridCell.Tab.0.center/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1610068464219" />
+    <state width="1620" height="236" key="GridCell.Tab.0.left" timestamp="1610068464219">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609923179337" />
+    <state width="1620" height="236" key="GridCell.Tab.0.left/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1610068464219" />
+    <state width="1620" height="236" key="GridCell.Tab.0.right" timestamp="1610068464219">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609923179337" />
+    <state width="1620" height="236" key="GridCell.Tab.0.right/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1610068464219" />
+    <state width="1620" height="236" key="GridCell.Tab.1.bottom" timestamp="1610068464418">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1877" height="248" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609923179337" />
+    <state width="1620" height="236" key="GridCell.Tab.1.bottom/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1610068464418" />
+    <state width="1620" height="236" key="GridCell.Tab.1.center" timestamp="1610068464418">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1877" height="248" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609923179337" />
+    <state width="1620" height="236" key="GridCell.Tab.1.center/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1610068464418" />
+    <state width="1620" height="236" key="GridCell.Tab.1.left" timestamp="1610068464418">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1877" height="248" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609923179337" />
+    <state width="1620" height="236" key="GridCell.Tab.1.left/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1610068464418" />
+    <state width="1620" height="236" key="GridCell.Tab.1.right" timestamp="1610068464418">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1877" height="248" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609923179337" />
+    <state width="1620" height="236" key="GridCell.Tab.1.right/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1610068464418" />
     <state x="480" y="208" key="NewModule_or_Project.wizard" timestamp="1609774733653">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="480" y="208" key="NewModule_or_Project.wizard/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1609774733653" />
+    <state x="343" y="149" key="SettingsEditor" timestamp="1610067883407">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="343" y="149" key="SettingsEditor/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1610067883407" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FuckingAlgorithm/Tree/IncreasingOrderSearchTree.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="treeNode.left" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
