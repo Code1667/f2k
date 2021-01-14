@@ -1,7 +1,5 @@
 package FuckingAlgorithm.Tree;
 
-
-
 /**
  * @author wq
  * @date 2021-01-08 8:53

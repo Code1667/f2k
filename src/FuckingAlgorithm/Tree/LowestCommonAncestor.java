@@ -1,9 +1,8 @@
 package FuckingAlgorithm.Tree;
 
 /**
- * @author wq
- * @date 2020-04-04 2:16
- * 最近公共祖先 leetcode236
+ *
+ * 二叉树的最近公共祖先 leetcode236
  */
 public class LowestCommonAncestor {
     public static void main(String[] args) {

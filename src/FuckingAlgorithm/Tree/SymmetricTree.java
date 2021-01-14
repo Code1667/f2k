@@ -3,6 +3,7 @@ package FuckingAlgorithm.Tree;
 
 import java.util.LinkedList;
 import java.util.Queue;
+
 /**
  * leetcode101 对称二叉树
  */
@@ -12,22 +13,24 @@ public class SymmetricTree {
      * dfs
      */
     public boolean isSymmetric(TreeNode root) {
-        return isMirror(root,root);
-    }
-
-    private boolean isMirror(TreeNode left, TreeNode right) {
-        if(left==null && right==null){
+        if (root == null) {
             return true;
         }
-        if(left==null||right==null){
+        return recur(root.left, root.right);
+    }
+
+    private boolean recur(TreeNode left, TreeNode right) {
+        if (left == null && right == null) {
+            return true;
+        }
+        if (left == null || right == null) {
             return false;
         }
 
-        return left.val== right.val
-                && isMirror(left.right,right.left)
-                && isMirror(left.left,right.right);
+        return left.val == right.val
+                && recur(left.right, right.left)
+                && recur(left.left, right.right);
     }
-
 
 
     private boolean isMirrorBFS(TreeNode root) {
@@ -35,16 +38,16 @@ public class SymmetricTree {
         queue.add(root);
         queue.add(root);
 
-        while (!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             TreeNode t1 = queue.poll();
             TreeNode t2 = queue.poll();
-            if (t1==null && t2==null){
+            if (t1 == null && t2 == null) {
                 continue;
             }
-            if(t1==null||t2==null){
+            if (t1 == null || t2 == null) {
                 return false;
             }
-            if(t1.val!=t2.val){
+            if (t1.val != t2.val) {
                 return false;
             }
 
