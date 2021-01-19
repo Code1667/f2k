@@ -8,44 +8,25 @@ import java.util.*;
 public class AccountsMerge {
 
     public static void main(String[] args) {
-        String name = "John";
-        String email1 = "johnsmith@mail.com";
-        String email2 = "john00@mail.com";
-        String email3 = "aaa@mail.com";
-        String email4 = "bbb@mail.com";
-
-
-
-        List<String> account1 = new ArrayList<>();
-        account1.add(name);
-        account1.add(email1);
-        account1.add(email2);
-        account1.add(email3);
-        account1.add(email4);
-
-
-//        String name2 = "John";
-//        String email21 = "johnnybravo@mail.com";
-//        String email22 = "john00@mail.com";
-//
-//        List<String> account2 = new ArrayList<>();
-//        account2.add(name2);
-//        account2.add(email21);
-//        account2.add(email22);
-
         List<List<String>> accounts = new ArrayList<>();
+        List<String> account1 = Arrays.asList("John", "johnsmith@mail.com", "john00@mail.com");
+        List<String> account2 = Arrays.asList("John", "johnnybravo@mail.com");
+        List<String> account3 = Arrays.asList("John", "johnsmith@mail.com", "john_newyork@mail.com");
+        List<String> account4 = Arrays.asList("Mary", "mary@mail.com");
+
         accounts.add(account1);
-        //accounts.add(account2);
+        accounts.add(account2);
+        accounts.add(account3);
+        accounts.add(account4);
 
         List<List<String>> lists = accountsMerge(accounts);
         System.out.println(lists);
-
 
     }
 
     public static List<List<String>> accountsMerge(List<List<String>> accounts) {
         Map<String, String> emailToName = new HashMap<>();
-        Map<String, ArrayList<String>> graph = new HashMap();
+        Map<String, List<String>> graph = new HashMap();
 
         for (List<String> account : accounts) {
             String name = "";
@@ -54,7 +35,7 @@ public class AccountsMerge {
                     name = email;
                     continue;
                 }
-                graph.computeIfAbsent(email,x-> new ArrayList<String>()).add(account.get(1));
+                graph.computeIfAbsent(email,x-> new ArrayList<>()).add(account.get(1));
                 graph.computeIfAbsent(account.get(1),x->new ArrayList<>()).add(email);
                 emailToName.put(email,name);
             }
