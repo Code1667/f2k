@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac7099fe-272c-453e-b451-ef4f190e835c" name="Default Changelist" comment="树">
-      <change afterPath="$PROJECT_DIR$/src/AQS/MyLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AQS/SimpleLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JVM/ContainerBlockingQueue.java" afterDir="false" />
+    <list default="true" id="ac7099fe-272c-453e-b451-ef4f190e835c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/f2k/FuckingAlgorithm/UnionFind/AccountsMerge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/f2k/FuckingAlgorithm/UnionFind/AccountsMerge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/f2k/ztest/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/f2k/ztest/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/f2k/FuckingAlgorithm/Tree/notReCuTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/f2k/FuckingAlgorithm/Tree/notReCuTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/f2k/ztest/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/f2k/ztest/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FuckingAlgorithm/UnionFind/AccountsMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FuckingAlgorithm/UnionFind/AccountsMerge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/Heap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ztest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ztest/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/f2k/ztest/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/f2k/ztest/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FuckingAlgorithm/Tree/notReCuTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FuckingAlgorithm/Tree/notReCuTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ztest/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ztest/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ztest/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ztest/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,13 +76,13 @@
       <recent name="D:\2Project\f2k\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Heap">
-    <configuration name="AccountsMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FuckingAlgorithm.UnionFind.AccountsMerge" />
+  <component name="RunManager" selected="Application.BuildTree">
+    <configuration name="BuildTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FuckingAlgorithm.Tree.BuildTree" />
       <module name="f2k" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FuckingAlgorithm.UnionFind.*" />
+          <option name="PATTERN" value="FuckingAlgorithm.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,19 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AQS.SimpleLock" />
-      <module name="f2k" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AQS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ztest.Solution" />
       <module name="f2k" />
@@ -146,13 +129,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="notReCuTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FuckingAlgorithm.Tree.notReCuTree" />
+      <module name="f2k" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FuckingAlgorithm.Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuildTree" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.notReCuTree" />
         <item itemvalue="Application.Heap" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SimpleLock" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.AccountsMerge" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +195,9 @@
       <workItem from="1610935970136" duration="7242000" />
       <workItem from="1610957963284" duration="3430000" />
       <workItem from="1611021930754" duration="2818000" />
+      <workItem from="1611035761747" duration="1640000" />
+      <workItem from="1611039794986" duration="4659000" />
+      <workItem from="1611046368985" duration="3476000" />
     </task>
     <task id="LOCAL-00001" summary="树">
       <created>1610072046065</created>
@@ -214,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610635189225</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="个人">
+      <created>1611035848513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611035848513</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,22 +228,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="树" />
-    <option name="LAST_COMMIT_MESSAGE" value="树" />
+    <MESSAGE value="个人" />
+    <option name="LAST_COMMIT_MESSAGE" value="个人" />
   </component>
   <component name="WindowStateProjectService">
     <state x="432" y="166" key="#Project_Structure" timestamp="1609774746529">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="432" y="166" key="#Project_Structure/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1609774746529" />
-    <state x="737" y="219" key="#com.intellij.ide.util.MemberChooser" timestamp="1610958612746">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="737" y="219" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1610958612746" />
-    <state x="645" y="213" key="#com.intellij.ide.util.MemberChooser/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1610067584285" />
-    <state x="452" y="100" key="CommitChangelistDialog2" timestamp="1610635204725">
+    <state x="645" y="213" key="#com.intellij.ide.util.MemberChooser" timestamp="1611045100853">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="452" y="100" key="CommitChangelistDialog2/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1610635204725" />
+    <state x="737" y="219" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1610958612746" />
+    <state x="645" y="213" key="#com.intellij.ide.util.MemberChooser/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1611045100853" />
+    <state x="452" y="100" key="CommitChangelistDialog2" timestamp="1611035847192">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="452" y="100" key="CommitChangelistDialog2/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1611035847192" />
     <state x="620" y="248" key="FileChooserDialogImpl" timestamp="1609774834359">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -250,46 +257,46 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="622" y="210" key="Github.UntrackedFilesDialog/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1609775002912" />
-    <state width="1637" height="233" key="GridCell.Tab.0.bottom" timestamp="1611024756197">
+    <state width="1637" height="233" key="GridCell.Tab.0.bottom" timestamp="1611067244065">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1238" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610984296895" />
-    <state width="1637" height="233" key="GridCell.Tab.0.bottom/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1611024756197" />
-    <state width="1637" height="233" key="GridCell.Tab.0.center" timestamp="1611024756197">
+    <state width="1637" height="233" key="GridCell.Tab.0.bottom/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1611067244065" />
+    <state width="1637" height="233" key="GridCell.Tab.0.center" timestamp="1611067244065">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1238" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610984296895" />
-    <state width="1637" height="233" key="GridCell.Tab.0.center/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1611024756197" />
-    <state width="1637" height="233" key="GridCell.Tab.0.left" timestamp="1611024756197">
+    <state width="1637" height="233" key="GridCell.Tab.0.center/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1611067244065" />
+    <state width="1637" height="233" key="GridCell.Tab.0.left" timestamp="1611067244065">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1238" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610984296895" />
-    <state width="1637" height="233" key="GridCell.Tab.0.left/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1611024756197" />
-    <state width="1637" height="233" key="GridCell.Tab.0.right" timestamp="1611024756197">
+    <state width="1637" height="233" key="GridCell.Tab.0.left/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1611067244065" />
+    <state width="1637" height="233" key="GridCell.Tab.0.right" timestamp="1611067244065">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1238" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610984296895" />
-    <state width="1637" height="233" key="GridCell.Tab.0.right/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1611024756197" />
-    <state width="1637" height="233" key="GridCell.Tab.1.bottom" timestamp="1611024756197">
+    <state width="1637" height="233" key="GridCell.Tab.0.right/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1611067244065" />
+    <state width="1637" height="233" key="GridCell.Tab.1.bottom" timestamp="1611067244066">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1877" height="242" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610945589046" />
-    <state width="1637" height="233" key="GridCell.Tab.1.bottom/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1611024756197" />
-    <state width="1637" height="233" key="GridCell.Tab.1.center" timestamp="1611024756197">
+    <state width="1637" height="233" key="GridCell.Tab.1.bottom/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1611067244066" />
+    <state width="1637" height="233" key="GridCell.Tab.1.center" timestamp="1611067244066">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1877" height="242" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610945589046" />
-    <state width="1637" height="233" key="GridCell.Tab.1.center/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1611024756197" />
-    <state width="1637" height="233" key="GridCell.Tab.1.left" timestamp="1611024756197">
+    <state width="1637" height="233" key="GridCell.Tab.1.center/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1611067244066" />
+    <state width="1637" height="233" key="GridCell.Tab.1.left" timestamp="1611067244065">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1877" height="242" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610945589046" />
-    <state width="1637" height="233" key="GridCell.Tab.1.left/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1611024756197" />
-    <state width="1637" height="233" key="GridCell.Tab.1.right" timestamp="1611024756197">
+    <state width="1637" height="233" key="GridCell.Tab.1.left/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1611067244065" />
+    <state width="1637" height="233" key="GridCell.Tab.1.right" timestamp="1611067244066">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1877" height="242" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610945589046" />
-    <state width="1637" height="233" key="GridCell.Tab.1.right/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1611024756197" />
+    <state width="1637" height="233" key="GridCell.Tab.1.right/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1611067244066" />
     <state x="480" y="208" key="NewModule_or_Project.wizard" timestamp="1609774733653">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -298,10 +305,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="343" y="149" key="SettingsEditor/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1610637739965" />
-    <state x="671" y="244" key="Vcs.Push.Dialog.v2" timestamp="1610635213739">
+    <state x="671" y="244" key="Vcs.Push.Dialog.v2" timestamp="1611035851492">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="671" y="244" key="Vcs.Push.Dialog.v2/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1610635213739" />
+    <state x="671" y="244" key="Vcs.Push.Dialog.v2/1680.-21.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1611035851492" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -312,14 +319,14 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ztest/Solution.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Sort/Heap.java</url>
           <line>15</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FuckingAlgorithm/Tree/BuildTree.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
